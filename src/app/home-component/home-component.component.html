@@ -1,3 +1,28 @@
-<p>
-  home-component inserted!
-</p>
+<nav>
+  <div class="nav-wrapper" style="margin-left: 20px; margin-right:20px;">
+    <a href="#" class="brand-logo">DietMonk</a>
+    <a href="#" data-activates="side-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+    <a href="#" data-activates="side-feedback" class="button-collapse right"><i class="material-icons">feedback</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+    </ul>
+    <ul class="side-nav" id="side-menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+    </ul>
+    <ul class="side-nav" id="side-feedback">
+      <li><a href="#">Home1</a></li>
+      <li><a href="#">About1</a></li>
+      <li><a href="#">Services1</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <!--Product Cards Start Here-->
+  <app-listing-product-card></app-listing-product-card>
+  <!--Product Cards End Here-->
+</div>
